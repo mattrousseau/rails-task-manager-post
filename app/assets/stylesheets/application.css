@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+.task {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.task-description {
+  display: flex;
+  background: rgba(0,0,0,0.1);
+  min-height: 50px;
+  width: 400px;
+  align-item: center;
+  border-radius: 5px;
+  padding : 10px;
+}
